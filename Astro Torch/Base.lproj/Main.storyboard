@@ -16,9 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H3s-qZ-Znb">
-                                <rect key="frame" x="16" y="59" width="145" height="77"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H3s-qZ-Znb">
+                                <rect key="frame" x="159" y="409" width="75" height="34.333333333333314"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button">
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -30,6 +29,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemRedColor"/>
+                        <constraints>
+                            <constraint firstItem="H3s-qZ-Znb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DJh-Wz-5L5"/>
+                            <constraint firstItem="H3s-qZ-Znb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="E2e-Ta-L4I"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="myButton" destination="H3s-qZ-Znb" id="mbp-K1-6ox"/>

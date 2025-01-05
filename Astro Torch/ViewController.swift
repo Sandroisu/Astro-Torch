@@ -16,7 +16,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var myButton: UIButton!
     
     @IBAction func MyButtonClicked(_ sender: UIButton) {
-        self.view.backgroundColor = UIColor.blue
+        if (self.view.backgroundColor == UIColor.blue){
+            self.view.backgroundColor = UIColor.red
+        }else{
+            self.view.backgroundColor = UIColor.blue
+        }
     }
    
 }
